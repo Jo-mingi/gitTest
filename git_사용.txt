@@ -5,6 +5,23 @@ C:\jupyter_min\gittest>git config --global core.autocrlf true
 
 ** 등록된 사용자 확인 **
 C:\jupyter_min\gittest>git config --global --list
+
 user.name='Jo-mingi'
 user.email='mingijo1004@naver.com'
 core.autocrlf=true
+
+** 버전 관리하겠다는 의미(초기화) **
+C:\jupyter_min\gittest>git init
+
+** git의 현재 버전관리 상태를 확인하기 **
+C:\jupyter_min\gittest>git status
+
+** 버전을 만들기 위한 준비상태로 만들기 **
+C:\jupyter_min\gittest>git add . (.은 현재 모든 파일/폴더를 스테이지에 올린다.)
+C:\jupyter_min\gittest>git add aaa.txt <-- aaa.txt파일만 버전관리를 할 수 있도록 하겠다.
+
+** 버전 생성**
+C:\jupyter_min\gittest>git commit -m "버전과 관련된 메시지(설명)"
+
+** 버전 확인 **
+C:\jupyter_min\gittest>git log
