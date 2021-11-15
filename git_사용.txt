@@ -1,0 +1,10 @@
+** 사용자 등록 **
+C:\jupyter_min\gittest>git config --global user.name 'Jo-mingi'
+C:\jupyter_min\gittest>git config --global user.email 'mingijo1004@naver.com'
+C:\jupyter_min\gittest>git config --global core.autocrlf true
+
+** 등록된 사용자 확인 **
+C:\jupyter_min\gittest>git config --global --list
+user.name='Jo-mingi'
+user.email='mingijo1004@naver.com'
+core.autocrlf=true
